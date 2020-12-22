@@ -1,3 +1,21 @@
+/* #f2f2f2 - rgb(242, 242, 242) */
+
+/* #f96d00 - rgb(249, 109, 0)  */
+
+/* #393e46 - rgb(57, 62, 70) */
+
+/* #222831 - rgb(34, 40, 49) */
+
+/* font-family: 'Pacifico', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Source Sans Pro', sans-serif; */
+/* for hover 255, 243, 79 */
+
+/* BEST YELLOW #FEE715FF 
+MODIFIED YELLOW RGB(255,240,104)
+ BEST BLUE 101820FF */
+
+ /* For buttons we have used #f96d00 */
 html {
     height: 100%;
     scroll-behavior: smooth;
@@ -11,11 +29,15 @@ body {
     background-attachment: fixed;
 }
 .my-box1 {
-    background-color: black;
-    height: 200px;
+    background-color: #101820ff;
+    padding: 1.25rem;
 }
 .my-box2 {
     color: #f2f2f2;
-    background-color:rgba(0,0,0);
-    height: 200px;
+    background-color:rgb(243, 234, 103);
+    min-height: 12.5rem;
+    width: 14rem;
+    margin: auto;
+    padding: 1.25rem;
+    
 }
