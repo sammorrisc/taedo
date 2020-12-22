@@ -123,27 +123,7 @@ h1 {
 
 }
 /* E-commerce */
-.my-commerce {
-    background-color: rgba(0, 0, 0, 0.39);
-    margin: auto;
-    padding: 1.25rem;
-    margin: 1.25rem;
 
-}
-.fas {
-    color: #f2f2f2;
-    font-size: 12rem;
-}
-.my-card {
-    background: url(../images/battery-bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: #f2f2f2;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
-    min-height: 17rem;
-}
 /* e-commerce */
 .my-commerce {
     background-color: rgba(0, 0, 0, 0.39);
@@ -192,16 +172,77 @@ h1 {
 p.my-commerce-cards {
     font-size: 2rem;
 }
+@media only screen and (max-width: 480px) {
+    /* e-commerce */
+    .my-commerce-heading {
+        font-size: 2rem!important;
+    }
+    .my-commerce {
+        background-color: rgba(0, 0, 0, 0.39);
+        margin: auto;
+        padding: 1.25rem;
+        margin: 1.25rem;
+    
+    }
+    .fas {
+        color: #f2f2f2;
+        font-size: 30vw;
+    }
+    .my-card1 {
+        background: url(../images/battery-bg-1.jpg);
+        background-size: cover;
+    /* background-size: 100% 100%; */
+        background-repeat: no-repeat;
+        /* background-position: center; */
+        color: #f2f2f2;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: center;
+        min-height: 17rem;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+
+    }
+    .my-card2 {
+        background: url(../images/roadkit.jpg);
+        background-size: cover;
+    /* background-size: 100% 100%; */
+        background-repeat: no-repeat;
+    /* background-position: center; */
+        color: #f2f2f2;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: center;
+        min-height: 17rem;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+    .my-card3 {
+        background: url(../images/hoodie.jpg);
+        background-size: cover;
+        /* background-size: 100% 100%; */
+        background-repeat: no-repeat;
+        /* background-position: center; */
+        color: #f2f2f2;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: center;
+        min-height: 17rem;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+    }
+    p.my-commerce-cards {
+        font-size: 2rem;
+    }
+
+}
 /* contact-us */
 
 .my-box1 {
-    background-color: rgba(16, 24, 32, 0.438);
+    background-color: black;
     padding: 1.25rem;
     margin-top: 1.25rem;
 }
 .my-box2 {
     color: #f2f2f2;
-    background-color:rgb(243, 234, 103);
+    background-color:rgba(0, 0, 0, 0.479);
     min-height: 12.5rem;
     width: 14rem;
     margin: auto;
