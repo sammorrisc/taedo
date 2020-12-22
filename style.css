@@ -43,11 +43,11 @@ h1 {
 }
 /* Navigation */
 .navbar-light .navbar-toggler-icon {
-    background-image: url(images/wrench-solid.svg);
+    background-image: url(images/bars-solid.svg);
     
 }
 .navbar-light .navbar-toggler-icon:hover {
-    background-image: url(images/wrench-solid-hover.svg);
+    background-image: url(images/bars-solid-hover.svg);
 }
 /* Navbar */
 
