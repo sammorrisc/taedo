@@ -15,7 +15,7 @@ font-family: 'Source Sans Pro', sans-serif; */
 MODIFIED YELLOW RGB(255,240,104)
  BEST BLUE 101820FF */
 
- /* For buttons we have used #f96d00 */
+ /* -----------For buttons we have used #f96d00------- */
 html {
     height: 100%;
     scroll-behavior: smooth;
@@ -31,17 +31,24 @@ body {
 .my-color {
     color: #f2f2f2;
 }
-/* Header */
+/*-------------------- Header ------------------*/
 header,h2 {
     font-family: 'Pacifico', cursive;
     color: rgb(255, 240, 104);
     font-size: 4rem;
 }
+@media only screen and (max-width: 500px) {
+    header,h2 {
+        font-family: 'Pacifico', cursive;
+        color: rgb(255, 240, 104);
+        font-size: 12vw;
+    }
+}
 h1 {
     font-family: 'Playfair Display', serif;
 
 }
-/* Navigation */
+/*--------------------- Navigation ------------------*/
 .navbar-light .navbar-toggler-icon {
     background-image: url(images/bars-solid.svg);
     
@@ -49,8 +56,12 @@ h1 {
 .navbar-light .navbar-toggler-icon:hover {
     background-image: url(images/bars-solid-hover.svg);
 }
-/* Navbar */
-
+/* --------------------Navbar----------------------------- */
+span#my-home {
+    color: rgb(255, 240, 104);
+    font-family: 'Pacifico', cursive;
+    
+}
 .navbar-light .navbar-brand {
     color: #f2f2f2;
 }
@@ -65,7 +76,7 @@ h1 {
 
 
 
-/* Home */
+/*---------------------- Home -----------------------------*/
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #f2f2f2;
 }
@@ -74,7 +85,7 @@ h1 {
 
 
 
-/* from About to Charity Events  */
+/*---------------- from About to Charity Events-----------  */
 .navbar-light .navbar-nav .nav-link {
     color: #f2f2f2;
 }
@@ -90,29 +101,38 @@ h1 {
 
 }
 
-/* Jumbotron */
+/* ------------------------Jumbotron ------------------------*/
 
 
 .container .row .myaboutus {
     color: rgb(242, 242, 242);
 }
 
-
+.my-new-buttons {
+    display: none;
+}
 
 .my-button-background {
     color: rgb(242,242,242);
     background-color: #f96d00;
     border-color: #f96d00;
+    
+
+    
 }
 .my-button-background:hover {
     color: rgb(242, 242, 242);
     background-color: #f96c00d5;
     border-color: #f96d00;
+    
+
 }
 .my-button-background:focus {
     color: rgb(242, 242, 242);
     background-color: #f96c00d5;
     border-color: #f96d00;
+    
+
     outline:none;
     box-shadow: none;
 }
@@ -122,7 +142,57 @@ h1 {
     color: #f2f2f2;
 
 }
-/* E-commerce */
+@media only screen and (max-width: 480px) {
+    .my-new-buttons {
+        display: block;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .my-new-buttons .my-aboutus-buttons span {
+        font-size: 1.5rem;
+    }
+    .my-new-buttons .my-aboutus-buttons .fas {
+        font-size: 1.6rem;
+        color: black;
+    }
+    .my-button-background {
+        display: none;
+
+    }
+    .my-aboutus-buttons {
+        display: block;
+        color: #0e0c0c;
+        background-color:rgb(255, 242, 123);
+        border: 1px solid rgb(252, 239, 128);
+        max-width: 14rem;
+        margin: auto;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+
+
+    }
+    .my-aboutus-buttons:hover {
+        display: block;
+        color: #0e0c0c;
+        background-color:rgb(255, 237, 74);
+        border: 1px solid rgb(252, 239, 128);
+        max-width: 14rem;
+        margin: auto;
+        padding: 1rem 1rem;
+        border-radius: 2rem;
+        text-decoration: none;
+
+
+    }
+}
+
+/* ------------------------Services------------------------ */
+.card-title {
+    font-style: italic;
+    color: rgb(252, 239, 128);
+        
+}
+/*------------------------ E-commerce---------------------- */
 
 /* e-commerce */
 .my-commerce {
@@ -200,6 +270,8 @@ p.my-commerce-cards {
         min-height: 17rem;
         margin-top: 1.25rem;
         margin-bottom: 1.25rem;
+        padding-bottom: 0.5rem;
+
 
     }
     .my-card2 {
@@ -214,6 +286,7 @@ p.my-commerce-cards {
         min-height: 17rem;
         margin-top: 1.25rem;
         margin-bottom: 1.25rem;
+        padding-bottom: 0.5rem;
     }
     .my-card3 {
         background: url(../images/hoodie.jpg);
@@ -227,13 +300,24 @@ p.my-commerce-cards {
         min-height: 17rem;
         margin-top: 1.25rem;
         margin-bottom: 1.25rem;
+        padding-bottom: 0.5rem;
     }
     p.my-commerce-cards {
         font-size: 2rem;
     }
 
 }
-/* contact-us */
+@media only screen and (min-width: 992px) {
+    p.my-commerce-cards {
+        font-size: 2.5vw;
+    }
+    .fas {
+        color: #f2f2f2;
+        font-size: 17vw;
+    }
+}
+
+/*------------------------------ contact-us------------ */
 
 .my-box1 {
     background-color: black;

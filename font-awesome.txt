@@ -1,4 +1,12 @@
 https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css
+phone call us!
+<i class="fas fa-phone"></i>
+
+
+mail us!
+
+<i class="far fa-envelope"></i>
+
 
 <i class="fas fa-car-battery"></i>
 
