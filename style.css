@@ -328,6 +328,7 @@ p.my-commerce-cards {
     /* background-color: rgba(252, 240, 128, 0.479); */
     background-image: url(images/transparent-logo-2.png);
     background-repeat: no-repeat;
+    /* background-position:top -5px right -2px; */
     padding: 1.25rem;
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
@@ -344,7 +345,27 @@ p.my-commerce-cards {
 }
 h1.my-contact-no {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: bolder;
 
+}
+
+.my-box2 p{
+    letter-spacing: .1rem;
+}
+
+@media only screen and (max-width: 576px) {
+    h1.my-contact-no {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 3.5rem;
+        font-weight: bolder;
+        /* text-align: right; */
+    
+    }
+    
+    /* .my-box2 p{
+        letter-spacing: .1rem;
+        margin-top: 2rem;
+        text-align: right;
+    } */
 }
