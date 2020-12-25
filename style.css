@@ -355,7 +355,7 @@ p.my-commerce-cards {
         padding: 1.25rem;
         
     }
-    h1.my-contact-no {
+    .my-box1 .container .row .col .my-box2 h1.my-contact-no {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 11vw;
         font-weight: bolder;
@@ -390,7 +390,7 @@ p.my-commerce-cards {
         padding: 1.25rem;
         
     }
-    h1.my-contact-no {
+    .my-box1 .container .row .col .my-box2 h1.my-contact-no {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 3.5rem;
         font-weight: bolder;
@@ -425,7 +425,7 @@ p.my-commerce-cards {
     padding: 1.25rem;
     
 }
-h1.my-contact-no {
+.my-box1 .container .row .col .my-box2 h1.my-contact-no {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 3.5rem;
     font-weight: bolder;
