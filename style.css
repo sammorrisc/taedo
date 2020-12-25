@@ -28,6 +28,13 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
+*[x-apple-data-detectors] {
+    /* border-bottom: 0 !important;
+    cursor: default !important; */
+    color: rgb(255, 240, 104) !important;
+
+    /* text-decoration: none !important; */
+}
 
 /*-------------------- Header ------------------*/
 header,h2 {
