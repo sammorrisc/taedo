@@ -359,6 +359,8 @@ p.my-commerce-cards {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 12vw;
         font-weight: bolder;
+        color: rgb(255, 240, 104);
+        
     
     }
     
@@ -392,6 +394,8 @@ p.my-commerce-cards {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 3.5rem;
         font-weight: bolder;
+        color: rgb(255, 240, 104);
+
     
     }
     
@@ -425,6 +429,8 @@ h1.my-contact-no {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 3.5rem;
     font-weight: bolder;
+    color: rgb(255, 240, 104);
+
 
 }
 
