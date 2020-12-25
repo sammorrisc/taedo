@@ -359,6 +359,8 @@ p.my-commerce-cards {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 11vw;
         font-weight: bolder;
+        -webkit-color: rgb(255, 240, 104)!important;
+        -moz-color: rgb(255, 240, 104)!important;
         color: rgb(255, 240, 104)!important;
         
     
@@ -394,6 +396,8 @@ p.my-commerce-cards {
         font-family: 'Source Sans Pro', sans-serif;
         font-size: 3.5rem;
         font-weight: bolder;
+        -webkit-color: rgb(255, 240, 104)!important;
+        -moz-color: rgb(255, 240, 104)!important;
         color: rgb(255, 240, 104)!important;
 
     
@@ -429,7 +433,10 @@ p.my-commerce-cards {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 3.5rem;
     font-weight: bolder;
+    -webkit-color: rgb(255, 240, 104)!important;
+    -moz-color: rgb(255, 240, 104)!important;
     color: rgb(255, 240, 104)!important;
+
 
 
 }
