@@ -16,7 +16,7 @@ MODIFIED YELLOW RGB(255,240,104)
  BEST BLUE 101820FF */
 
  /* -----------For buttons we have used #f96d00------- */
-html {
+ html {
     height: 100%;
     scroll-behavior: smooth;
 }
@@ -94,6 +94,12 @@ span#my-home {
 
 /*---------------- from About to Charity Events-----------  */
 .navbar-light .navbar-nav .nav-link {
+    color: #f2f2f2 !important;
+    font-family: 'Pacifico', cursive;
+    
+
+}
+.navbar-light .navbar-nav .nav-link:hover {
     color: rgb(255, 240, 104) !important;
     font-family: 'Pacifico', cursive;
     
@@ -117,8 +123,11 @@ a.nav-item .nav-link{
 }
 .dropdown-item {
     color: #f2f2f2;
+    padding: 0.4rem 1.5rem;
 }
-
+.dropdown-divider {
+    margin: 0rem 0rem;
+}
 
 /* ------------------------Jumbotron ------------------------*/
 
@@ -374,253 +383,3 @@ div.col-12.col-lg-8 {
 
 
 /* ------------------------Services------------------------ */
-.card-title {
-    font-style: italic;
-    color: rgb(252, 239, 128);
-        
-}
-/*------------------------ E-commerce---------------------- */
-
-/* e-commerce */
-.my-commerce {
-    background-color: rgba(0, 0, 0, 0.39);
-    margin: auto;
-    padding: 1.25rem;
-    margin: 1.25rem;
-
-}
-.fas {
-    color: #f2f2f2;
-    font-size: 12rem;
-}
-.my-card1 {
-    background: url(../images/battery-bg-1.jpg);
-    background-size: cover;
-    /* background-size: 100% 100%; */
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    color: #f2f2f2;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
-    min-height: 17rem;
-}
-.my-card2 {
-    background: url(../images/roadkit.jpg);
-    background-size: cover;
-    /* background-size: 100% 100%; */
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    color: #f2f2f2;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
-    min-height: 17rem;
-}
-.my-card3 {
-    background: url(../images/hoodie.jpg);
-    background-size: cover;
-    /* background-size: 100% 100%; */
-    background-repeat: no-repeat;
-    /* background-position: center; */
-    color: #f2f2f2;
-    font-family: 'Source Sans Pro', sans-serif;
-    text-align: center;
-    min-height: 17rem;
-}
-p.my-commerce-cards {
-    font-size: 2rem;
-    color: rgb(255, 240, 104);
-    font-style: italic;
-}
-@media only screen and (max-width: 480px) {
-    /* e-commerce */
-    .my-commerce-heading {
-        font-size: 2rem!important;
-    }
-    .my-commerce {
-        background-color: rgba(0, 0, 0, 0.39);
-        margin: auto;
-        padding: 1.25rem;
-        margin: 1.25rem;
-    
-    }
-    .fas {
-        color: #f2f2f2;
-        font-size: 30vw;
-    }
-    .my-card1 {
-        background: url(../images/battery-bg-1.jpg);
-        background-size: cover;
-    /* background-size: 100% 100%; */
-        background-repeat: no-repeat;
-        /* background-position: center; */
-        color: #f2f2f2;
-        font-family: 'Source Sans Pro', sans-serif;
-        text-align: center;
-        min-height: 17rem;
-        margin-top: 1.25rem;
-        margin-bottom: 1.25rem;
-        padding-bottom: 0.5rem;
-
-
-    }
-    .my-card2 {
-        background: url(../images/roadkit.jpg);
-        background-size: cover;
-    /* background-size: 100% 100%; */
-        background-repeat: no-repeat;
-    /* background-position: center; */
-        color: #f2f2f2;
-        font-family: 'Source Sans Pro', sans-serif;
-        text-align: center;
-        min-height: 17rem;
-        margin-top: 1.25rem;
-        margin-bottom: 1.25rem;
-        padding-bottom: 0.5rem;
-    }
-    .my-card3 {
-        background: url(../images/hoodie.jpg);
-        background-size: cover;
-        /* background-size: 100% 100%; */
-        background-repeat: no-repeat;
-        /* background-position: center; */
-        color: #f2f2f2;
-        font-family: 'Source Sans Pro', sans-serif;
-        text-align: center;
-        min-height: 17rem;
-        margin-top: 1.25rem;
-        margin-bottom: 1.25rem;
-        padding-bottom: 0.5rem;
-    }
-    p.my-commerce-cards {
-        font-size: 1.7rem;
-        color: rgb(255, 240, 104);
-        font-style: italic;
-    }
-
-}
-@media only screen and (min-width: 992px) {
-    p.my-commerce-cards {
-        font-size: 2.5vw;
-        color: rgb(255, 240, 104);
-        font-style: italic;
-    
-    }
-    .fas {
-        color: #f2f2f2;
-        font-size: 17vw;
-    }
-}
-
-/*------------------------------ contact-us------------ */
-@media only screen and (max-width: 575.98px) {
-
-    .my-box1 {
-        background-color: rgb(0, 0, 0);
-        /* background-color: rgba(252, 240, 128, 0.479); */
-        /* background-image: url(images/transparent-logo-2.png);
-        background-repeat: no-repeat; */
-        /* background-position:top -5px right -2px; */
-        padding: 1.25rem;
-        margin-top: 1.25rem;
-        margin-bottom: 1.25rem;
-    }
-    .my-box2 {
-        /* color: #f2f2f2; */
-        color:rgb(255, 255, 255);
-        /* background-color:rgba(0, 0, 0, 0.479); */
-        min-height: 12.5rem;
-        /* width: 14rem; */
-        margin: auto;
-        padding: 1.25rem;
-        
-    }
-    .my-box1 .container .row .col .my-box2 h1.my-contact-no {
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 11vw;
-        font-weight: bolder;
-        -webkit-color: rgb(255, 240, 104)!important;
-        -moz-color: rgb(255, 240, 104)!important;
-        color: rgb(255, 240, 104)!important;
-        
-    
-    }
-    
-    .my-box2 p{
-        letter-spacing: .1rem;
-    }
-    }
-@media only screen and (min-width: 576px) {
-
-    .my-box1 {
-        background-color: rgb(0, 0, 0);
-        /* background-color: rgba(252, 240, 128, 0.479); */
-        /* background-image: url(images/transparent-logo-2.png);
-        background-repeat: no-repeat; */
-        /* background-position:top -5px right -2px; */
-        padding: 1.25rem;
-        margin-top: 1.25rem;
-        margin-bottom: 1.25rem;
-    }
-    .my-box2 {
-        /* color: #f2f2f2; */
-        color:rgb(255, 255, 255);
-        /* background-color:rgba(0, 0, 0, 0.479); */
-        min-height: 12.5rem;
-        /* width: 14rem; */
-        margin: auto;
-        padding: 1.25rem;
-        
-    }
-    .my-box1 .container .row .col .my-box2 h1.my-contact-no {
-        font-family: 'Source Sans Pro', sans-serif;
-        font-size: 3.5rem;
-        font-weight: bolder;
-        -webkit-color: rgb(255, 240, 104)!important;
-        -moz-color: rgb(255, 240, 104)!important;
-        color: rgb(255, 240, 104)!important;
-
-    
-    }
-    
-    .my-box2 p{
-        letter-spacing: .1rem;
-    }
-    }
-@media only screen and (min-width: 768px) {
-
-.my-box1 {
-    background-color: rgb(0, 0, 0);
-    /* background-color: rgba(252, 240, 128, 0.479); */
-    /* background-image: url(../images/transparent-logo-2.png);
-    background-repeat: no-repeat; */
-    /* background-position:top -5px right -2px; */
-    padding: 1.25rem;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
-}
-.my-box2 {
-    /* color: #f2f2f2; */
-    color:rgb(255, 255, 255);
-    /* background-color:rgba(0, 0, 0, 0.479); */
-    min-height: 12.5rem;
-    /* width: 14rem; */
-    margin: auto;
-    padding: 1.25rem;
-    
-}
-.my-box1 .container .row .col .my-box2 h1.my-contact-no {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 2.7rem;
-    font-weight: bolder;
-    -webkit-color: rgb(255, 240, 104)!important;
-    -moz-color: rgb(255, 240, 104)!important;
-    color: rgb(255, 240, 104)!important;
-
-
-
-}
-
-.my-box2 p{
-    letter-spacing: .1rem;
-}
-}
