@@ -94,6 +94,12 @@ span#my-home {
 
 /*---------------- from About to Charity Events-----------  */
 .navbar-light .navbar-nav .nav-link {
+    color: #f2f2f2 !important;
+    font-family: 'Pacifico', cursive;
+    
+
+}
+.navbar-light .navbar-nav .nav-link:hover {
     color: rgb(255, 240, 104) !important;
     font-family: 'Pacifico', cursive;
     
@@ -117,9 +123,11 @@ a.nav-item .nav-link{
 }
 .dropdown-item {
     color: #f2f2f2;
+    padding: 0.4rem 1.5rem;
 }
-
-
+.dropdown-divider {
+    margin: 0rem 0rem;
+}
 /* ------------------------Jumbotron ------------------------*/
 
 
