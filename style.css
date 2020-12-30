@@ -632,3 +632,9 @@ p.my-commerce-cards {
     letter-spacing: .1rem;
 }
 }
+.my-copyrights {
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 0.5rem;
+
+}
