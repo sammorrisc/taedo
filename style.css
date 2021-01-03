@@ -139,7 +139,7 @@ div.col-12.col-lg-4 img {
     left: 3rem;
     top: 2rem;
     border: 4px solid rgb(255, 240, 104);
-    border-radius: 50%;
+    /* border-radius: 50%; */
     /* padding: 1rem; */
     margin-bottom: 0rem;
     
@@ -162,7 +162,7 @@ div.col-12.col-lg-8 {
         left: 7rem;
         top: 2rem;
         border: 4px solid rgb(255, 240, 104);
-        border-radius: 50%;
+        /* border-radius: 50%; */
         /* padding: 1rem; */
         margin-bottom: 0rem;
         
@@ -194,7 +194,7 @@ div.col-12.col-lg-8 {
         left: 5rem;
         top: 2rem;
         border: 4px solid rgb(255, 240, 104);
-        border-radius: 50%;
+        /* border-radius: 50%; */
         /* padding: 1rem; */
         margin-bottom: 0rem;
         
@@ -219,7 +219,7 @@ div.col-12.col-lg-8 {
         left: 4.6rem;
         top: 2rem;
         border: 4px solid rgb(255, 240, 104);
-        border-radius: 50%;
+        /* border-radius: 50%; */
         /* padding: 1rem; */
         margin-bottom: 0rem;
         
@@ -245,7 +245,7 @@ div.col-12.col-lg-8 {
         left: 4.2rem;
         top: 2rem;
         border: 4px solid rgb(255, 240, 104);
-        border-radius: 50%;
+        /* border-radius: 50%; */
         /* padding: 1rem; */
         margin-bottom: 0rem;
         
@@ -270,7 +270,7 @@ div.col-12.col-lg-8 {
         left: 3.5rem;
         top: 2rem;
         border: 4px solid rgb(255, 240, 104);
-        border-radius: 50%;
+        /* border-radius: 50%; */
         /* padding: 1rem; */
         margin-bottom: 0rem;
     }

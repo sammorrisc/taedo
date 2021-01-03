@@ -133,13 +133,13 @@ a.nav-item .nav-link{
 
 
 div.col-12.col-lg-4 img {
-    width: 75%;
-    height: 75%;
+    width: 65%;
+    height: 65%;
     position: relative;
     left: 3rem;
     top: 2rem;
-    border: 4px solid rgb(255, 242, 123);
-    border-radius: 50%;
+    border: 4px solid rgb(255, 240, 104);
+    /* border-radius: 50%; */
     /* padding: 1rem; */
     margin-bottom: 0rem;
     
@@ -156,13 +156,13 @@ div.col-12.col-lg-8 {
 
 @media only screen and (max-width: 991.98px) {
     div.col-12.col-lg-4 img {
-        width: 75%;
-        height: 75%;
+        width: 65%;
+        height: 65%;
         position: relative;
-        left: 5rem;
+        left: 7rem;
         top: 2rem;
-        border: 4px solid rgb(255, 242, 123);
-        border-radius: 50%;
+        border: 4px solid rgb(255, 240, 104);
+        /* border-radius: 50%; */
         /* padding: 1rem; */
         margin-bottom: 0rem;
         
@@ -188,13 +188,13 @@ div.col-12.col-lg-8 {
 }
 @media only screen and (max-width: 767.98px) {
     div.col-12.col-lg-4 img {
-        width: 75%;
-        height: 75%;
+        width: 65%;
+        height: 65%;
         position: relative;
-        left: 4rem;
+        left: 5rem;
         top: 2rem;
-        border: 4px solid rgb(255, 242, 123);
-        border-radius: 50%;
+        border: 4px solid rgb(255, 240, 104);
+        /* border-radius: 50%; */
         /* padding: 1rem; */
         margin-bottom: 0rem;
         
@@ -213,13 +213,13 @@ div.col-12.col-lg-8 {
 
 @media only screen and (max-width: 575.98px) {
     div.col-12.col-lg-4 img {
-        width: 75%;
-        height: 75%;
+        width: 65%;
+        height: 65%;
         position: relative;
-        left: 4rem;
+        left: 4.6rem;
         top: 2rem;
-        border: 4px solid rgb(255, 242, 123);
-        border-radius: 50%;
+        border: 4px solid rgb(255, 240, 104);
+        /* border-radius: 50%; */
         /* padding: 1rem; */
         margin-bottom: 0rem;
         
@@ -239,13 +239,13 @@ div.col-12.col-lg-8 {
 
 @media only screen and (max-width: 480px) {
     div.col-12.col-lg-4 img {
-        width: 75%;
-        height: 75%;
+        width: 65%;
+        height: 65%;
         position: relative;
-        left: 3rem;
+        left: 4.2rem;
         top: 2rem;
-        border: 4px solid rgb(255, 242, 123);
-        border-radius: 50%;
+        border: 4px solid rgb(255, 240, 104);
+        /* border-radius: 50%; */
         /* padding: 1rem; */
         margin-bottom: 0rem;
         
@@ -264,18 +264,20 @@ div.col-12.col-lg-8 {
 
 @media only screen and (max-width: 375px) {
     div.col-12.col-lg-4 img {
-        width: 75%;
-        height: 75%;
+        width: 65%;
+        height: 65%;
         position: relative;
-        left: 2rem;
+        left: 3.5rem;
         top: 2rem;
-        border: 4px solid rgb(255, 242, 123);
-        border-radius: 50%;
+        border: 4px solid rgb(255, 240, 104);
+        /* border-radius: 50%; */
         /* padding: 1rem; */
         margin-bottom: 0rem;
     }
     div.col-12.col-lg-8 {
         padding: 2rem;
+        position: relative;
+        left: .25rem;
     }
 
 }
