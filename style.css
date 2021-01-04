@@ -58,13 +58,13 @@ h1 {
 }
 /*--------------------- Navigation ------------------*/
 .navbar-light .navbar-toggler-icon {
-    background-image: url(images/cog-solid.svg);
+    background-image: url(images/bars-solid.svg);
     width: 2.5rem;
     height: 2.5rem;
     
 }
 .navbar-light .navbar-toggler-icon:hover {
-    background-image: url(images/cog-solid-hover.svg);
+    background-image: url(images/bars-solid-hover.svg);
     width: 2.5rem;
     height: 2.5rem;
 }
@@ -971,7 +971,7 @@ p.my-commerce-cards {
 .my-copyrights {
     text-align: center;
     color: #f2f2f2;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 
 }
 /*===== GO-TO-TOP BUTTON======================================== */
