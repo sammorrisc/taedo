@@ -58,11 +58,15 @@ h1 {
 }
 /*--------------------- Navigation ------------------*/
 .navbar-light .navbar-toggler-icon {
-    background-image: url(images/bars-solid.svg);
+    background-image: url(images/cog-solid.svg);
+    width: 2.5rem;
+    height: 2.5rem;
     
 }
 .navbar-light .navbar-toggler-icon:hover {
-    background-image: url(images/bars-solid-hover.svg);
+    background-image: url(images/cog-solid-hover.svg);
+    width: 2.5rem;
+    height: 2.5rem;
 }
 /* --------------------Navbar----------------------------- */
 span#my-home {
@@ -97,6 +101,8 @@ span#my-home {
 .navbar-light .navbar-nav .nav-link {
     color: #f2f2f2 !important;
     font-family: 'Pacifico', cursive;
+    text-align: center;
+    letter-spacing: 0.03rem;
     
 
 }
@@ -129,6 +135,19 @@ a.nav-item .nav-link{
 }
 .dropdown-divider {
     margin: 0rem 0rem;
+}
+nav.navbar{
+    display: flex;
+    flex-direction: column;
+}
+.dropdown-item:hover {
+    color: #0e0c0c;
+    padding: 0.4rem 1.5rem;
+    background-color: rgb(250, 224, 51);
+}
+.dropdown-menu {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
 }
 /* ------------------------Jumbotron ------------------------*/
 
@@ -181,10 +200,10 @@ div.col-12.col-lg-8 {
         top: -7rem;
         
     }
-    div.d-flex.flex-row-reverse.bd-highlight {
+    /* div.d-flex.flex-row-reverse.bd-highlight {
         position: relative;
         right: 9rem;
-    }
+    } */
 
 }
 @media only screen and (max-width: 767.98px) {
@@ -285,62 +304,304 @@ div.col-12.col-lg-8 {
 
 
 
-.my-new-buttons {
+/* .my-new-buttons {
     display: none;
-}
+} */
 
-.my-button-background {
+/* .my-button-background {
     color: rgb(242,242,242);
-    background-color: #f96d00;
-    border-color: #f96d00;
+    background-color: rgb(250, 224, 51);
+    border-color: rgb(250, 224, 51);
     
 
     
 }
 .my-button-background:hover {
     color: rgb(242, 242, 242);
-    background-color: #f96c00d5;
-    border-color: #f96d00;
+    background-color: rgb(250, 224, 51);
+    border-color: rgb(250, 224, 51);
     
 
 }
 .my-button-background:focus {
     color: rgb(242, 242, 242);
-    background-color: #f96c00d5;
-    border-color: #f96d00;
+    background-color: rgb(250, 224, 51);
+    border-color: rgb(250, 224, 51);
     
 
     outline:none;
     box-shadow: none;
-}
+} */
 
 .my-background {
     
     color: #f2f2f2;
 
 }
-@media only screen and (max-width: 767.98px) {
+/* @media only screen and (max-width: 767.98px) {
     div.d-flex.flex-row-reverse.bd-highlight {
         position: relative;
         right: 2.7rem;
         top: -2rem;
     }
-}
-@media only screen and (max-width: 575.98px) {
+} */
+/* @media only screen and (max-width: 575.98px) {
     div.d-flex.flex-row-reverse.bd-highlight {
         position: relative;
         right: 3.7rem;
         top: -2rem;
     }
-}
-@media only screen and (max-width: 500px) {
+} */
+/* @media only screen and (max-width: 500px) {
     div.d-flex.flex-row-reverse.bd-highlight {
         position: relative;
         right: 0.7rem;
         top: 0rem;
     }
+} */
+@media only screen and (min-width: 992px) {
+    .my-last-buttons {
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 1rem;
+    }
+    .my-new-buttons {
+        display: block;
+        text-align: center;
+        margin-bottom: 1rem;
+        margin-left: 1rem;
+    }
+    .my-new-buttons .my-aboutus-buttons span {
+        font-size: 1.5rem;
+    }
+    .my-new-buttons .my-aboutus-buttons .fas {
+        font-size: 1.6rem;
+        color: black;
+    }
+    .my-button-background {
+        display: none;
+
+    }
+    .my-aboutus-buttons {
+        display: block;
+        color: #0e0c0c;
+        background-color:rgb(250, 224, 51);
+        border: 1px solid rgb(250, 224, 51);
+        max-width: 14rem;
+        margin: auto;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+
+
+    }
+    .my-aboutus-buttons:hover {
+        display: block;
+        color: #0e0c0c;
+        background-color:rgb(252, 234, 121);
+        border: 1px solid rgb(252, 234, 121);
+        max-width: 14rem;
+        margin: auto;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        text-decoration: none;
+
+
+    }
 }
+@media only screen and (max-width: 991.98px) {
+    .my-last-buttons {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .my-new-buttons {
+        display: block;
+        text-align: center;
+        margin-bottom: 1rem;
+        padding: 1rem 2rem;
+    }
+    .my-new-buttons .my-aboutus-buttons span {
+        font-size: 1.5rem;
+    }
+    .my-new-buttons .my-aboutus-buttons .fas {
+        font-size: 1.6rem;
+        color: black;
+    }
+    .my-button-background {
+        display: none;
+
+    }
+    .my-aboutus-buttons {
+        display: block;
+        color: #0e0c0c;
+        background-color:rgb(250, 224, 51);
+        border: 1px solid rgb(250, 224, 51);
+        max-width: 14rem;
+        margin: auto;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+
+
+    }
+    .my-aboutus-buttons:hover {
+        display: block;
+        color: #0e0c0c;
+        background-color:rgb(252, 234, 121);
+        border: 1px solid rgb(252, 234, 121);
+        max-width: 14rem;
+        margin: auto;
+        padding: 1rem 2rem;
+        border-radius: 2rem;
+        text-decoration: none;
+
+
+    }
+}
+@media only screen and (max-width: 767.98px) {
+    .my-last-buttons {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .my-new-buttons {
+        display: block;
+        text-align: center;
+        margin-bottom: 1rem;
+        padding: 0rem 1rem;
+    }
+    .my-new-buttons .my-aboutus-buttons span {
+        font-size: 1.5rem;
+    }
+    .my-new-buttons .my-aboutus-buttons .fas {
+        font-size: 1.6rem;
+        color: black;
+    }
+    .my-button-background {
+        display: none;
+
+    }
+    .my-aboutus-buttons {
+        display: block;
+        color: #0e0c0c;
+        background-color:rgb(250, 224, 51);
+        border: 1px solid rgb(250, 224, 51);
+        padding: 1rem 0rem;
+        border-radius: 2rem;
+        width: 11rem;
+
+
+    }
+    .my-aboutus-buttons:hover {
+        display: block;
+        color: #0e0c0c;
+        background-color:rgb(252, 234, 121);
+        border: 1px solid rgb(252, 234, 121);
+        max-width: 14rem;
+        margin: auto;
+        padding: 1rem 0rem;
+        border-radius: 2rem;
+        text-decoration: none;
+
+
+    }
+}
+@media only screen and (max-width: 575.98px) {
+    .my-last-buttons {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .my-new-buttons {
+        display: flex;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .my-new-buttons .my-aboutus-buttons span {
+        font-size: 1.5rem;
+    }
+    .my-new-buttons .my-aboutus-buttons .fas {
+        font-size: 1.6rem;
+        color: black;
+    }
+    
+    .my-aboutus-buttons {
+        display: inline-block;
+        color: #0e0c0c;
+        background-color:rgb(250, 224, 51);
+        border: 1px solid rgb(250, 224, 51);
+        max-width: 14rem;
+        margin: auto;
+        padding: 1rem 1rem;
+        border-radius: 2rem;
+        width: 12rem;
+
+
+    }
+    .my-aboutus-buttons:hover {
+        display: inline-block;
+        color: #0e0c0c;
+        background-color:rgb(252, 234, 121);
+        border: 1px solid rgb(252, 234, 121);
+        max-width: 14rem;
+        margin: auto;
+        padding: 1rem 1rem;
+        border-radius: 2rem;
+        text-decoration: none;
+
+
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .my-last-buttons {
+        display: flex;
+        justify-content: end;
+    }
+    .my-new-buttons {
+        display: block;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .my-new-buttons .my-aboutus-buttons span {
+        font-size: 1.5rem;
+    }
+    .my-new-buttons .my-aboutus-buttons .fas {
+        font-size: 1.6rem;
+        color: black;
+    }
+    .my-button-background {
+        display: none;
+
+    }
+    .my-aboutus-buttons {
+        display: block;
+        color: #0e0c0c;
+        background-color:rgb(250, 224, 51);
+        border: 1px solid rgb(250, 224, 51);
+        margin: auto;
+        padding: 1rem 0rem;
+        border-radius: 2rem;
+        width: 12rem;
+
+
+    }
+    .my-aboutus-buttons:hover {
+        display: block;
+        color: #0e0c0c;
+        background-color:rgb(252, 234, 121);
+        border: 1px solid rgb(252, 234, 121);
+        max-width: 14rem;
+        margin: auto;
+        padding: 1rem 0rem;
+        border-radius: 2rem;
+        text-decoration: none;
+
+
+    }
+}
+
 @media only screen and (max-width: 480px) {
+    .my-last-buttons {
+        display: flex;
+        flex-direction: column;
+    }
     .my-new-buttons {
         display: block;
         text-align: center;
@@ -391,6 +652,7 @@ div.col-12.col-lg-8 {
     color: rgb(250, 224, 51);
         
 }
+
 /*------------------------ E-commerce---------------------- */
 
 /* e-commerce */
@@ -403,7 +665,7 @@ div.col-12.col-lg-8 {
 }
 .fas {
     color: #f2f2f2;
-    font-size: 12rem;
+    font-size: 11rem;
 }
 .my-card1 {
     background: url(../images/battery-bg-1.jpg);
@@ -443,7 +705,86 @@ p.my-commerce-cards {
     color: rgb(250, 224, 51);
     font-style: italic;
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 992px) {
+    p.my-commerce-cards {
+        font-size: 2.5vw;
+        color: rgb(250, 224, 51);
+        font-style: italic;
+    
+    }
+    .fas {
+        color: #f2f2f2;
+        font-size: 13vw;
+    }
+}
+@media only screen and (max-width: 575.98px) {
+    /* e-commerce */
+    .my-commerce-heading {
+        font-size: 2rem!important;
+    }
+    .my-commerce {
+        background-color: rgba(0, 0, 0, 0.39);
+        margin: auto;
+        padding: 1.25rem;
+        margin: 1.25rem;
+    
+    }
+    .fas {
+        color: #f2f2f2;
+        font-size: 25vw;
+    }
+    .my-card1 {
+        background: url(../images/battery-bg-1.jpg);
+        background-size: cover;
+    /* background-size: 100% 100%; */
+        background-repeat: no-repeat;
+        /* background-position: center; */
+        color: #f2f2f2;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: center;
+        min-height: 17rem;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+        padding-bottom: 0.5rem;
+
+
+    }
+    .my-card2 {
+        background: url(../images/roadkit.jpg);
+        background-size: cover;
+    /* background-size: 100% 100%; */
+        background-repeat: no-repeat;
+    /* background-position: center; */
+        color: #f2f2f2;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: center;
+        min-height: 17rem;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+        padding-bottom: 0.5rem;
+    }
+    .my-card3 {
+        background: url(../images/hoodie.jpg);
+        background-size: cover;
+        /* background-size: 100% 100%; */
+        background-repeat: no-repeat;
+        /* background-position: center; */
+        color: #f2f2f2;
+        font-family: 'Source Sans Pro', sans-serif;
+        text-align: center;
+        min-height: 17rem;
+        margin-top: 1.25rem;
+        margin-bottom: 1.25rem;
+        padding-bottom: 0.5rem;
+    }
+    p.my-commerce-cards {
+        font-size: 1.7rem;
+        color: rgb(250, 224, 51);
+        font-style: italic;
+    }
+
+}
+@media only screen and (max-width: 500px) {
     /* e-commerce */
     .my-commerce-heading {
         font-size: 2rem!important;
@@ -510,18 +851,8 @@ p.my-commerce-cards {
     }
 
 }
-@media only screen and (min-width: 992px) {
-    p.my-commerce-cards {
-        font-size: 2.5vw;
-        color: rgb(250, 224, 51);
-        font-style: italic;
-    
-    }
-    .fas {
-        color: #f2f2f2;
-        font-size: 17vw;
-    }
-}
+
+
 
 /*------------------------------ contact-us------------ */
 @media only screen and (max-width: 575.98px) {
@@ -636,9 +967,23 @@ p.my-commerce-cards {
     letter-spacing: .1rem;
 }
 }
+/* ===========================COPYRIGHTS============= */
 .my-copyrights {
     text-align: center;
     color: #f2f2f2;
     font-size: 0.5rem;
 
+}
+/*===== GO-TO-TOP BUTTON======================================== */
+.my-up-button .fas {
+    font-size: 40px;
+    color: rgb(250, 224, 51);
+    background-color: black;
+    border-radius: 50%;
+}
+
+.my-up-button  {
+    position: sticky;
+    bottom: 10px;
+    text-align: end;
 }
