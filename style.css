@@ -29,13 +29,7 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
-*[x-apple-data-detectors] {
-    /* border-bottom: 0 !important;
-    cursor: default !important; */
-    color: rgb(255, 240, 104) !important;
 
-    /* text-decoration: none !important; */
-}
 
 /*-------------------- Header ------------------*/
 header,h2 {
@@ -218,7 +212,12 @@ div.col-12.col-lg-8 {
         position: relative;
         top: -7rem;
         
+        
     }
+    div.col-12.col-lg-8 p{
+        font-size: 1.7rem;
+    }
+
     /* div.d-flex.flex-row-reverse.bd-highlight {
         position: relative;
         right: 9rem;
@@ -665,6 +664,10 @@ div.col-12.col-lg-8 {
 }
 
 
+.my-owner{
+    color: rgb(250, 224, 51);
+    border-bottom: 1px solid rgb(250, 224, 51);
+}
 /* ------------------------Services------------------------ */
 .card-title {
     font-style: italic;
